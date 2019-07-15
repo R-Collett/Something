@@ -52,6 +52,11 @@ endif
 
 colo slate
 set nu
+filetype plugin indent on
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
