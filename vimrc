@@ -1,3 +1,5 @@
+
+
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 " the call to :runtime you can find below.  If you wish to change any of those
 " settings, you should do it in this file (/etc/vim/vimrc), since debian.vim
@@ -47,6 +49,8 @@ endif
 "set autowrite          " Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
 "set mouse=a            " Enable mouse usage (all modes)
+
+set rnu
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
